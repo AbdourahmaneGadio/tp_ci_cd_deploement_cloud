@@ -29,7 +29,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: moncompte/app-cicd:latest
+          tags: app-cicd:latest
 
   deploy:
     needs: docker-build-push
